@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cartItems = [];
     const cartItemsContainer = document.getElementById('cart-items');
     const cartTotalElement = document.getElementById('cart-total');
+    const checkoutButton = document.getElementById('checkout-button');
 
     function addToCart(product) {
         if (!cartItems.some(item => item.name === product.name)) {
@@ -75,4 +76,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         cartTotalElement.textContent = total.toFixed(2);
     }
+
+    checkoutButton.addEventListener('click', () => {
+        window.location.href = 'checkout.html';
+    });
 });
