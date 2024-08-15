@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <img src="${product.image.replace('.png', '_hover.png')}" alt="${product.name}" class="hover-image">
                     </div>
                     <h2>${product.name}</h2>
-                    <p>Price: $${product.price}</p>
+                    <p>Price: CHF${product.price}</p>
                     <p>${product.set}</p>
                     <button class="add-to-cart">Add to Cart</button>
                 `;
