@@ -3,17 +3,65 @@
         {
             "name": "Poké Ball",
             "price": 10,
-            "description": "A device for catching wild Pokémon."
+            "set": "Paldean Fates",
+            "image": "images/pokeball.png",
+            "hoverImage": "images/pokeball_hover.png"
         },
         {
             "name": "Potion",
             "price": 5,
-            "description": "Restores a Pokémon's HP by 20 points."
+            "set": "Paradox Rift",
+            "image": "images/potion.png",
+            "hoverImage": "images/potion_hover.png"
         },
         {
             "name": "Rare Candy",
             "price": 50,
-            "description": "Increases a Pokémon's level by one."
+            "set": "Paldean Fates",
+            "image": "images/rare_candy.png",
+            "hoverImage": "images/rare_candy_hover.png"
+        },
+        {
+            "name": "Poké Ball",
+            "price": 10,
+            "set": "Paldean Fates",
+            "image": "images/pokeball.png",
+            "hoverImage": "images/pokeball_hover.png"
+        },
+        {
+            "name": "Potion",
+            "price": 5,
+            "set": "Paradox Rift",
+            "image": "images/potion.png",
+            "hoverImage": "images/potion_hover.png"
+        },
+        {
+            "name": "Rare Candy",
+            "price": 50,
+            "set": "Paldean Fates",
+            "image": "images/rare_candy.png",
+            "hoverImage": "images/rare_candy_hover.png"
+        },
+        {
+            "name": "Poké Ball",
+            "price": 10,
+            "set": "Paldean Fates",
+            "image": "images/pokeball.png",
+            "hoverImage": "images/pokeball_hover.png"
+        },
+        {
+            "name": "Potion",
+            "price": 5,
+            "set": "Paradox Rift",
+            "image": "images/potion.png",
+            "hoverImage": "images/potion_hover.png"
+        },
+        {
+            "name": "Rare Candy",
+            "price": 50,
+            "set": "Paldean Fates",
+            "image": "images/rare_candy.png",
+            "hoverImage": "images/rare_candy_hover.png"
         }
     ]
 }
