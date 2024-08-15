@@ -99,11 +99,6 @@ h1 {
     margin: 10px 0;
 }
 
-#cart-items {
-    list-style-type: none;
-    padding: 0;
-}
-
 #cart-items li {
     margin: 5px 0;
     color: #666;
@@ -128,8 +123,8 @@ h1 {
 #cart-total {
     font-weight: bold;
     color: #333;
-    
 }
+
 #checkout-content {
     max-width: 600px;
     margin: 50px auto;
@@ -170,7 +165,62 @@ h1 {
 #checkout-form button:hover {
     background-color: #218838;
 }
+/* Checkout Form Styles */
+#checkout-content {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
+#checkout-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#checkout-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#checkout-form input {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#checkout-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#checkout-form button:hover {
+    background-color: #218838;
+}
+/* Add styles for the "Go to Checkout" button */
+#checkout-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#checkout-button:hover {
+    background-color: #0056b3;
+}
 @media (max-width: 600px) {
     body {
         flex-direction: column;
