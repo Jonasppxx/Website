@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "name": "Poké Ball",
+            "price": 10,
+            "description": "A device for catching wild Pokémon."
+        },
+        {
+            "name": "Potion",
+            "price": 5,
+            "description": "Restores a Pokémon's HP by 20 points."
+        },
+        {
+            "name": "Rare Candy",
+            "price": 50,
+            "description": "Increases a Pokémon's level by one."
+        }
+    ]
+}
